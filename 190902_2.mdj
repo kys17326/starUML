@@ -728,6 +728,7 @@
 							},
 							"subViews": [
 								{
+									"_type": "UMLNameCompartmentView",
 									"_id": "AAAAAAFs8UPI/2tUCpo=",
 									"_parent": {
 										"$ref": "AAAAAAFs8UPI/2tTtCE="
