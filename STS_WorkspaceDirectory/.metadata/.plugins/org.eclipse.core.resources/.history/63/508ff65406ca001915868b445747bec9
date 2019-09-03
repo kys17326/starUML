@@ -1,0 +1,29 @@
+package daelim.uml;
+
+public class Marine {
+	
+	private String name;
+	public int health;
+	protected int attackPower;
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		name = name;
+	}
+
+	private void Move() {
+		System.out.println("마린 이동한다.");
+	}
+	
+	public void Attack() {
+		System.out.println("마린 공격한다.");
+	}
+	
+	public void UnderAttack(char c1) {
+		Move();
+		System.out.println("마린 위치로 공격하러간다.");
+	}
+}

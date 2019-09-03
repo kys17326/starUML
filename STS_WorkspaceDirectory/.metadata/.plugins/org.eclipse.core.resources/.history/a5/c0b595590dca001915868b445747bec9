@@ -1,0 +1,9 @@
+package daelim.uml;
+
+public class UnitExecutor {
+
+	public static void main(String[] args) {
+		Unit unit = new Unit();
+	}
+
+}

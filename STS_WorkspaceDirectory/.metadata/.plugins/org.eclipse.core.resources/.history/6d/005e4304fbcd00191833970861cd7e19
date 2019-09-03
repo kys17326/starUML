@@ -1,0 +1,14 @@
+package sample;
+
+public class SampleClass {
+	private static SampleClass  sampleClass;
+	
+	public static SampleClass getInstance() {
+		
+		sampleClass = new SampleClass();
+		return new sampleClass;
+	}
+	public void smaplePrint() {
+		System.out.println("Hello Sample");
+	}
+}

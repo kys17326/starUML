@@ -1,0 +1,10 @@
+package kr.ac.dealim.uml.strategy;
+
+public class Zoo {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

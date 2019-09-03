@@ -1,0 +1,20 @@
+package daelim.uml;
+
+public class Medic extends Unit {
+	
+	@Override
+	public void Move() {
+		
+		super.Move();
+		System.out.println("메딕 이동합니다.");
+	}
+	@Override
+	public void UnderAttack(Charactor charactor) {
+	
+		super.UnderAttack(charactor);
+	}
+	
+	public void Healing(Charactor charactor) {
+		
+	}
+}

@@ -1,0 +1,10 @@
+package daelim.uml;
+
+public class Medic extends Unit {
+	
+	@Override
+	public void Move() {
+		// TODO Auto-generated method stub
+		super.Move();
+	}
+}

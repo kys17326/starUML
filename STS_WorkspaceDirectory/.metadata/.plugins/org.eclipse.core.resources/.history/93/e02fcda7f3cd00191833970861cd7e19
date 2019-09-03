@@ -1,0 +1,10 @@
+package kr.ac.dealim.uml.strategy;
+
+public class Eagle extends Animal{
+
+		public Eagle(){
+			
+		}
+		
+		
+}

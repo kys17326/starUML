@@ -1,0 +1,19 @@
+package daelim.uml;
+
+public class Medic0version extends Unit {
+	
+	@Override
+	public void Move() {
+		
+		super.Move();
+	}
+	@Override
+	public void UnderAttack(Charactor charactor) {
+	
+		super.UnderAttack(charactor);
+	}
+	
+	public void Healing(Charactor charactor) {
+		
+	}
+}

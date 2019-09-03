@@ -1,0 +1,14 @@
+package daelim.uml;
+
+public class Unit {
+	PublicString name;
+	health
+	
+	Move() {
+		
+	}
+	UnderAttack(Charactor charactor) {
+		
+	}
+
+}

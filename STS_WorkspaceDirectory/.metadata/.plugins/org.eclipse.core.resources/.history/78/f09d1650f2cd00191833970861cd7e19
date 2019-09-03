@@ -1,0 +1,8 @@
+package kr.ac.dealim.uml.strategy;
+
+public class ICry {
+
+	public abstract void Cry(){
+		
+	}
+}

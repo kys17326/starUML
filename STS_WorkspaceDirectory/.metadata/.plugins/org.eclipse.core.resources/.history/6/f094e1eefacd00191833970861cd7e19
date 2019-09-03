@@ -1,0 +1,15 @@
+package sample;
+
+public class SampleClass {
+	private SampleClass  sampleClass;
+	
+	public static SampleClass getInstance() {
+		
+		sampleClass = new SampleClass();
+		
+		return new SampleClass();
+	}
+	public void smaplePrint() {
+		System.out.println("Hello Sample");
+	}
+}

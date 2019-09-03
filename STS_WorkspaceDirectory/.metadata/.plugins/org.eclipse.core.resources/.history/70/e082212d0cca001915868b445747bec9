@@ -1,0 +1,13 @@
+package daelim.uml;
+
+public class Marine extends Unit {
+	
+	protected int AttackPower;
+	
+	@Override
+	public void Move() {
+		// TODO Auto-generated method stub
+		super.Move();
+	}
+
+}

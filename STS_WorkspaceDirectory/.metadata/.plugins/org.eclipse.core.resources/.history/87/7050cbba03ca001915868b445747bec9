@@ -1,0 +1,24 @@
+package daelim.uml;
+
+public class Marine {
+	
+	private String Name;
+	public int Health;
+	protected int AttackPower;
+	
+
+	public static void main(String[] args) {
+
+	}
+
+
+	public String getName() {
+		return Name;
+	}
+
+
+	public void setName(String name) {
+		Name = name;
+	}
+
+}

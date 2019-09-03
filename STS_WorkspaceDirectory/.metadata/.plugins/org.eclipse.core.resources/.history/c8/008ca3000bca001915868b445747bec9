@@ -1,0 +1,10 @@
+package daelim.uml;
+
+public class Unit {
+	name
+	health
+	
+	Move
+	UnderAttack(Charactor )
+
+}

@@ -1,0 +1,14 @@
+package sample;
+
+public class SampleClass {
+	private SampleClass  sampleClass;
+	
+	public void getInstance() {
+		sample = new SampleClass();
+		
+		
+	}
+	public void smaplePrint() {
+		
+	}
+}
