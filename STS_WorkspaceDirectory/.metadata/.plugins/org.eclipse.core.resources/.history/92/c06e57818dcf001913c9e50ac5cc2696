@@ -1,0 +1,34 @@
+package kr.ac.daelim.uml.decorator.cafe;
+
+public class CoffeeStore {
+
+	public static void main(String[] args) {
+		
+		// 1번 음료: 하우스 블랜드 커피 (일반)
+		HouseBlend houseblend = new HouseBlend();
+		// 2번 음료: 다크로스트, 두유 라떼, 휘핑 크림
+		Decaf decaf = new Decaf();
+		// 3번 음료:
+		DarkRoast darkRoast = new DarkRoast();
+		// 4번 음료:
+		Espresso espresso = new Espresso();
+		
+		System.out.println(espresso.getDescription() + espresso.cost());
+		System.out.println(darkRoast.getDescription() + darkRoast.cost());
+		System.out.println(houseblend.getDescription() + houseblend.cost());
+		System.out.println(decaf.getDescription() + decaf.cost());
+		System.out.println();
+		
+		Milk milk = new Milk(espresso);
+		Mocha mocha = new Mocha(houseblend);
+		Soy soy = new Soy(darkRoast);
+		Whip whip = new Whip(decaf);
+	
+		System.out.println(whip.getDescription() + whip.cost());
+		System.out.println(mocha.getDescription() + mocha.cost());
+		System.out.println(soy.getDescription() + soy.cost());
+		System.out.println(milk.getDescription() + milk.cost() );
+
+	}
+
+}

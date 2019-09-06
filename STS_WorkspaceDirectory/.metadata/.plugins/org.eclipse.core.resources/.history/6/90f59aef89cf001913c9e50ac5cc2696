@@ -1,0 +1,10 @@
+package kr.ac.daelim.uml.decorator.cafe;
+
+public abstract class CondimentDecorator extends Beverage {
+	public void CondimentDecorator(){
+		
+	}
+	
+	public abstract String getDescription();
+
+}

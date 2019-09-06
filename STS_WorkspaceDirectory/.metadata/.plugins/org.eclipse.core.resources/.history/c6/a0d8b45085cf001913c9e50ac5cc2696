@@ -1,0 +1,12 @@
+package kr.ac.daelim.uml.decorator.cafe;
+
+public class Espresso extends Beverage{
+
+	public Espresso
+	@Override
+	public int cost() {
+
+		return 0;
+	}
+
+}

@@ -1,5 +1,0 @@
-package daelim.uml;
-
-public class Marine extends Unit {
-
-}

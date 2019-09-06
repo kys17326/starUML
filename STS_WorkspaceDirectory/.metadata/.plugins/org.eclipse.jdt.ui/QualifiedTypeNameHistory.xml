@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="kr.ac.dealim.uml.strategy.FlyNoWay"/>
+<fullyQualifiedTypeName name="kr.ac.daelim.uml.decorator.cafe.Beverage"/>
+<fullyQualifiedTypeName name="kr.ac.daelim.uml.decorator.cafe.Decaf"/>
+<fullyQualifiedTypeName name="kr.ac.daelim.uml.decorator.cafe.DarkRoast"/>
+<fullyQualifiedTypeName name="kr.ac.daelim.uml.decorator.cafe.Espresso"/>
 </qualifiedTypeNameHistroy>

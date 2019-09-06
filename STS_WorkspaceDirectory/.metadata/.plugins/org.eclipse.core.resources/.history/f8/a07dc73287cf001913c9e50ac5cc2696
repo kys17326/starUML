@@ -1,0 +1,23 @@
+package kr.ac.daelim.uml.decorator.cafe;
+
+public class Mocha {
+
+	private Beverage beverage;
+	
+	public Mocha(Beverage beverage) {
+		this.beverage = beverage;
+		
+	}
+	
+	@Override
+	public int cost() {
+
+		return beverage.cost()+ 400;
+	}
+
+	@Override
+	public String getDescription() {
+
+		return beverage.getDescription()+", 두유";
+	}
+}

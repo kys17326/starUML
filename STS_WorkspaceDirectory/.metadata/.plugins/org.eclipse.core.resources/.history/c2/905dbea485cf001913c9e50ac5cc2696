@@ -1,0 +1,11 @@
+package kr.ac.daelim.uml.decorator.cafe;
+
+public class HouseBlend extends Beverage{
+
+	@Override
+	public int cost() {
+
+		return 0;
+	}
+
+}

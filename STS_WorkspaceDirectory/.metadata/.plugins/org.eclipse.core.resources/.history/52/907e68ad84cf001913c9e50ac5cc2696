@@ -1,0 +1,7 @@
+package kr.ac.daelim.uml.decorator.cafe;
+
+public abstract class Berverage {
+	
+	private String description = "empty";
+	public String getDescription()
+}

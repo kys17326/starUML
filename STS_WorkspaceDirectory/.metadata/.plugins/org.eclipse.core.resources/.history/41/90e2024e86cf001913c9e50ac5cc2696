@@ -1,0 +1,23 @@
+package kr.ac.daelim.uml.decorator.cafe;
+
+public class Milk extends CondimentDecorator{
+	
+	private Beverage beverage;
+	
+	public Milk(Beverage beverage) {
+		
+	}
+	
+	@Override
+	public int cost() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void getDescription() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

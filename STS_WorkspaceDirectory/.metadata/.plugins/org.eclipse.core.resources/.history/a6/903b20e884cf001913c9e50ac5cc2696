@@ -1,0 +1,9 @@
+package kr.ac.daelim.uml.decorator.cafe;
+
+public class CondimentDecorator {
+	public void CondimentDecorator(){
+		
+	}
+	
+
+}

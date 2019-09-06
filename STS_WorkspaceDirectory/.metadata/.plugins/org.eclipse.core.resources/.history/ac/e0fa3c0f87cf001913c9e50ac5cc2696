@@ -1,0 +1,23 @@
+package kr.ac.daelim.uml.decorator.cafe;
+
+public class Soy {
+
+	private Beverage beverage;
+	
+	public Soy(Beverage beverage) {
+		this.beverage = beverage;
+		
+	}
+	
+	@Override
+	public int cost() {
+
+		return beverage.cost()+ 600;
+	}
+
+	@Override
+	public String getDescription() {
+
+		return beverage.getDescription()+", 휘핑크림";
+	}
+}
