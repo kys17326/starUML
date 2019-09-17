@@ -1,9 +1,0 @@
-package kr.ac.dealim.uml.strategy;
-
-public class Turtle extends Ani{
-	public Turtle() {
-		Cry = new CryNoWay();
-		Fly = new FlyNoWay();
-	}
-	
-}

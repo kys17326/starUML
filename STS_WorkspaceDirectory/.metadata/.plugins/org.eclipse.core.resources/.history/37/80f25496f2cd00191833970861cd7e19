@@ -1,7 +1,0 @@
-package kr.ac.dealim.uml.strategy;
-
-public class IFly {
-	public void Fly(){
-		
-	}
-}
